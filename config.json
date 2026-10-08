@@ -1,0 +1,21 @@
+{
+  "base_seed": 20261001,
+  "run_count": 20,
+  "output_directory": "results",
+  "base_ga": {
+    "population_size": 60,
+    "generations": 100,
+    "tournament_size": 3,
+    "crossover_probability": 0.9,
+    "mutation_probability": 0.15,
+    "mutation_sigma": 70.0
+  },
+  "high_mutation_ga": {
+    "population_size": 60,
+    "generations": 100,
+    "tournament_size": 3,
+    "crossover_probability": 0.9,
+    "mutation_probability": 0.40,
+    "mutation_sigma": 70.0
+  }
+}
